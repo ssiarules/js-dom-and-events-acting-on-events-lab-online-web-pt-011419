@@ -3,9 +3,8 @@ function preventRefreshOnSubmit(){
       event.preventDefault()
     })
 }
+preventRefreshOnSubmit()
 
 function retrieveEmployeeInformation(){
-  return document.querySelector('input').value 
+  return document.querySelector('input').value
 }
-
-preventRefreshOnSubmit()

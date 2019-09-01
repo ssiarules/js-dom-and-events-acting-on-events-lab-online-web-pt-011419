@@ -31,3 +31,4 @@ function clearEmployeeListOnLinkClick(){
   let list = document.querySelector('ul')
 
   button.addEventListener('click', function(e){ list.innerHTML = ''})
+}
